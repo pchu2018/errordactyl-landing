@@ -1,0 +1,36 @@
+{
+  "name": "errordactyl-landing",
+  "version": "1.0.0",
+  "description": "landing page for errordactyl",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "dev": "webpack serve --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pchu2018/errordactyl-landing.git"
+  },
+  "author": "dangernoodles",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pchu2018/errordactyl-landing/issues"
+  },
+  "homepage": "https://github.com/pchu2018/errordactyl-landing#readme",
+  "dependencies": {
+    "@mui/material": "^5.11.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "babel-loader": "^9.1.2",
+    "css-loader": "^6.7.3",
+    "sass": "^1.58.0",
+    "sass-loader": "^13.2.0",
+    "style-loader": "^3.3.1",
+    "ts-loader": "^9.4.2",
+    "typescript": "^4.9.5",
+    "webpack": "^5.75.0"
+  }
+}
