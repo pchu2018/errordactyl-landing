@@ -1,0 +1,36 @@
+#maincard-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.maincard {
+  border: 2px solid $gradient2;
+  width: 70%;
+  margin: 0 0 40px 0;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.2s;
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+    transition: all 0.2s;
+  }
+}
+
+#card1, #card3 {
+  border-left: none;
+  text-align: left;
+  border-radius: 0 $border $border 0;
+}
+#card2 {
+  border-right: none;
+  text-align: right;
+  border-radius: $border 0 0 $border;
+  align-self: end;
+}
+
+#edact-card {
+  align-self: center;
+  width: 200px;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,40 @@
+@import './variables';
+@import './header';
+@import './team';
+@import './navbar';
+@import './maincard';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  width: 100vw;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: $maincolor;
+  text-align: center;
+}
+
+a {
+  color: inherit;
+  &:hover {
+    color: $accentcolor
+  }
+  text-decoration: none;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+  background-image: radial-gradient(circle, $gradient2 25%, $gradient1 100%);
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(180deg, rgba(200,200,200,0), $gradient3);
+}
+

@@ -1,1 +1,15 @@
-$maincolor: orange;
+$gradient1: rgb(255, 217, 196);
+$gradient2: rgb(227,202,255);
+$gradient3: white;
+
+$pastel1: rgb(63, 23, 2);
+$pastel2: rgb(51, 18, 88);
+
+
+$maincolor: rgb(50, 50, 50);
+
+$cardcolor: rgb(111, 87, 227);
+$cardcolordark: rgb(94, 44, 194);
+$accentcolor: darken($cardcolordark, 10%);
+
+$border: 14px;

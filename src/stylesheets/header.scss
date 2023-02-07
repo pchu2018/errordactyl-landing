@@ -1,0 +1,19 @@
+@import './variables';
+
+#header {
+  width: 50%;
+  margin: 40px auto 80px auto;
+  padding-top: 40px;
+  h1 {
+    margin: 70px 0 50px 0;
+    font-size: 90px;
+    font-weight: 600;
+    color: $cardcolordark
+  }
+  h2 {
+    padding: 10px;
+  }
+  p {
+    font-size: 22px;
+  }
+}

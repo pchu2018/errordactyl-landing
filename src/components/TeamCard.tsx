@@ -1,3 +1,5 @@
+import { GitHub, LinkedIn } from '@mui/icons-material';
+
 interface TeamCardData {
   name: string,
   photoPath: string,
@@ -12,12 +14,15 @@ interface TeamCardProps {
 
 export default function TeamCard({data}: TeamCardProps) {
   return (
-    <div className="member">
+    <div className="member-wrapper">
       <img className="member-photo" src={data.photoPath}></img>
-      <h2 className="member-name">{data.name}</h2>
-      <p className="member-title">{data.title}</p>
-      <a href={data.github}>GitHub</a>
-      <a href={data.linkedIn}>LinkedIn</a>
+      <div className='member'>
+        <h3 className="member-name">{data.name}</h3>
+        <p className="member-title">{data.title}</p>
+        <a href={data.github}><GitHub></GitHub></a>
+        <a href={data.linkedIn}><LinkedIn></LinkedIn></a>
+      </div>
+      
     </div>
   )
 }
