@@ -16,4 +16,9 @@
   p {
     font-size: 22px;
   }
+  a {
+    &:hover {
+      color: inherit
+    }
+  }
 }

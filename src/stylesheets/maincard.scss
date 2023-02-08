@@ -7,24 +7,32 @@
   border: 2px solid $gradient2;
   width: 70%;
   margin: 0 0 40px 0;
-  padding: 40px;
+  padding: 40px 60px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: center;
   transition: all 0.2s;
   &:hover {
     background-color: rgba(255, 255, 255, 0.4);
     transition: all 0.2s;
   }
+
+  svg {
+    margin: 0 20px;
+    font-size: 80px;
+    color: $cardcolor;
+  }
 }
 
 #card1, #card3 {
   border-left: none;
-  text-align: left;
+  text-align: right;
   border-radius: 0 $border $border 0;
 }
-#card2 {
+#card2, #card4 {
+  flex-direction: row-reverse;
   border-right: none;
-  text-align: right;
+  text-align: left;
   border-radius: $border 0 0 $border;
   align-self: end;
 }

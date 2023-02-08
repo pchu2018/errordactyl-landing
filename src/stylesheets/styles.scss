@@ -26,6 +26,23 @@ a {
   text-decoration: none;
 }
 
+button {
+  border-radius: $border;
+  font-family: inherit;
+  font-size: 30px;
+  border: none;
+  margin-top: 30px;
+  padding: 10px 25px;
+  background-color: $accentcolor2;
+  color: white;
+  border: 5px solid $accentcolor2;
+  transition: all 0.2s;
+  &:hover {
+    background-image: radial-gradient(circle, darken($accentcolor2, 10%), $accentcolor2);
+    transition: all 0.2s;
+  }
+}
+
 #root {
   width: 100%;
   height: 100%;
