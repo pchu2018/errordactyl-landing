@@ -24,6 +24,10 @@
   }
 }
 
+.maincard-text {
+  flex: 1;
+}
+
 #card1, #card3 {
   border-left: none;
   text-align: right;
@@ -41,4 +45,11 @@
   align-self: center;
   width: 200px;
   margin-bottom: 20px;
+}
+
+.gif {
+  margin: 0 auto 40px auto;
+  width: 800px;
+  border-radius: $border;
+  box-shadow: 0 0 8px $accentcolor2;
 }
