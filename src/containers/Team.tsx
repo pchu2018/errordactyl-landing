@@ -4,30 +4,30 @@ export default function Team() {
   const teamMembers = [
     {
       name: 'Tony Van',
-      photoPath: 'https://errordactyl.s3.amazonaws.com/T037PK0BFFE-U03EUF9EK88-083361911dbb-512.png',
+      photoPath: 'T037PK0BFFE-U03EUF9EK88-083361911dbb-512.png',
       title: 'Software Engineer',
-      github: 'github.com/navynot',
+      github: 'http://github.com/navynot',
       linkedIn: 'https://www.linkedin.com/in/navynot/'
     },
     {
       name: 'Eric Vartanian',
-      photoPath: 'https://errordactyl.s3.amazonaws.com/T037PK0BFFE-U03JQ1R10LS-579180546dcc-512.png',
+      photoPath: 'T037PK0BFFE-U03JQ1R10LS-579180546dcc-512.png',
       title: 'Software Engineer',
-      github: 'github.com/evartan',
-      linkedIn: 'https://www.linkedin.com/in/navynot/'
+      github: 'http://github.com/evartan',
+      linkedIn: 'https://www.linkedin.com/in/ericvartanian/'
     },
     {
       name: 'Lewis Lin',
-      photoPath: 'https://errordactyl.s3.amazonaws.com/IMG_3473.png',
+      photoPath: 'IMG_3473.png',
       title: 'Software Engineer',
-      github: 'github.com/nileswil',
+      github: 'https://github.com/nileswil',
       linkedIn: 'https://www.linkedin.com/in/lewislin9/'
     },
     {
       name: 'Pei-Yun Chu',
-      photoPath: 'https://errordactyl.s3.amazonaws.com/594C6A77-0765-4C73-9142-A145CA1083D2+copy.jpg',
+      photoPath: 'peiyun.jpg',
       title: 'Software Engineer',
-      github: 'github.com/pchu2018',
+      github: 'http://github.com/pchu2018',
       linkedIn: 'https://www.linkedin.com/in/pei-yun-chu/'
     }
   ]

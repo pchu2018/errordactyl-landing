@@ -4,10 +4,13 @@
 }
 
 #team {
-  margin: 30px 0 0 0;
-  display: flex;
-  flex-direction: row;
-  text-align: left;
+    width: fit-content;
+    margin: 30px auto 0 auto;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .member-wrapper {
@@ -17,9 +20,9 @@
   display: flex;
   flex-direction: column;
   width: 160px;
-  margin: 0 20px;
+  margin: 0 20px 20px 0;
   padding: 10px;
-  border-radius: $border $border 0 0;
+  border-radius: $border;
   img {
     margin-bottom: 10px;
     width: 100%;
@@ -39,5 +42,19 @@
     &:hover {
       color: white;
     }
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  #team {
+    margin: 30px 0 0 0;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+  }
+
+  .member-wrapper {
+    border-radius: $border $border 0 0;
+    margin: 0 20px;
   }
 }

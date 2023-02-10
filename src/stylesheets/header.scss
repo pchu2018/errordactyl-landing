@@ -6,9 +6,10 @@
   padding-top: 40px;
   h1 {
     margin: 70px 0 50px 0;
-    font-size: 90px;
+    font-size: 4em;
     font-weight: 600;
-    color: $cardcolordark
+    color: $cardcolordark;
+    text-align: center;
   }
   h2 {
     padding: 10px;
@@ -19,6 +20,14 @@
   a {
     &:hover {
       color: inherit
+    }
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  #header {
+    h1 {
+      font-size: 90px;
     }
   }
 }

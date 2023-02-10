@@ -10,7 +10,7 @@ export default function MainCard() {
         </div> 
         <ManageSearch></ManageSearch>
       </div>
-      <img className='gif' src='https://errordactyl.s3.amazonaws.com/ezgif-3-b69af5ed38.gif'></img>
+      <img className='gif' src='ezgif-3-b69af5ed38.gif'></img>
       <div className='maincard' id='card2'>
         <div className='maincard-text'>
           <h2>Highly configurable</h2>
@@ -25,7 +25,7 @@ export default function MainCard() {
         </div> 
         <SyncAlt></SyncAlt>
       </div>
-      <img className='gif' src='https://errordactyl.s3.amazonaws.com/ezgif-3-6a8eba0a17.gif'></img>
+      <img className='gif' src='ezgif-3-6a8eba0a17.gif'></img>
       <div className='maincard' id='card4'>
         <div className='maincard-text'>
           <h2>Robust error tracing</h2>
@@ -34,7 +34,7 @@ export default function MainCard() {
         <ReportGmailerrorredOutlined></ReportGmailerrorredOutlined>
       </div>
 
-      <img id='edact-card' src='https://errordactyl.s3.amazonaws.com/edact_r.png'></img>
+      <img id='edact-card' src='edact_r.png'></img>
     </div>
     
   )
