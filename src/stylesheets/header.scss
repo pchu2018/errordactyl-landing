@@ -1,7 +1,7 @@
 @import './variables';
 
 #header {
-  width: 50%;
+  width: 75%;
   margin: 40px auto 80px auto;
   padding-top: 40px;
   h1 {
@@ -26,6 +26,7 @@
 
 @media only screen and (min-width: 800px) {
   #header {
+    width: 50%;
     h1 {
       font-size: 90px;
     }

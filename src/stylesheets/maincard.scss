@@ -49,7 +49,13 @@
 
 .gif {
   margin: 0 auto 40px auto;
-  width: 800px;
+  width: 90%;
   border-radius: $border;
   box-shadow: 0 0 8px $accentcolor2;
+}
+
+@media only screen and (min-width: 800px) {
+  .gif {
+    width: 75%;
+  }
 }
